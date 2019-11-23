@@ -193,6 +193,7 @@ a:hover, a:focus, a:active {
 .book-photo {
   width: 200px;
   max-width: 300px;
+  padding-bottom: 2em;
   }
 
 .poetry-photo {
@@ -207,6 +208,17 @@ a:hover, a:focus, a:active {
   .item-img{
     max-width: 200px;
     padding: .1em;
+  }
+
+  .button {
+    background-color: #868e96;
+    border: none;
+    color: white;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
   }
   
 
