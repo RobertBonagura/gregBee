@@ -94,6 +94,7 @@ p.lead {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
+  color: #b4b3b3;
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
@@ -170,12 +171,12 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #4f4e4e!important;
+  background-color: #2c2b38!important;
   /* old color: #BD5D38 */
 }
 
 .text-primary {
-  color: #4f4e4e !important;
+  color: #2f2d3b !important;
 }
 
 a {
