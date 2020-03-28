@@ -238,10 +238,6 @@ a:hover, a:focus, a:active {
     background-color: #252527 
   }
 
-p {
-  text-align: justify;
-}
-
 .tour-notice {
   max-width: 600px;
 }
