@@ -185,7 +185,8 @@ a {
 
 a:hover, a:focus, a:active {
   /*old color - #824027 */ 
-  color: #7bbeeb;
+  color: #878db8;
+  opacity: .85;
 }
 
 .photo-container{
