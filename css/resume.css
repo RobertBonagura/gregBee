@@ -190,7 +190,8 @@ a {
 
 a:hover, a:focus, a:active {
   /*old color - #824027 */ 
-  color: #7bbeeb;
+  color: #a4a4aa;
+  opacity: .85;
 }
 
 .photo-container{
