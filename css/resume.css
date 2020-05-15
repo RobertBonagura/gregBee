@@ -176,8 +176,6 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-color: #4b4a4e!important;
-
-  /* old color: #BD5D38 */
 }
 
 .text-primary {
@@ -207,7 +205,8 @@ a:hover, a:focus, a:active {
 }
 
 .photo-credit {
-  margin-top: 15px;
+  font-size: smaller;
+  margin-top: 25px;
 }
 
 .book-photo {
