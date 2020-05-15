@@ -206,7 +206,10 @@ a:hover, a:focus, a:active {
   max-width: 500px;
   box-shadow: 10px 10px 5px #514d66; /* purple theme*/
   box-shadow: 10px 10px 5px #636364; 
+}
 
+.photo-credit {
+  margin-top: 15px;
 }
 
 .book-photo {
@@ -253,7 +256,3 @@ a:hover, a:focus, a:active {
   height: auto;
   
 }
-
-/* Ash tray blue: #7bbeeb  */
-/* Cig Butt: #ffb882 */
-/* Light Cig Butt: #ffe2c0 */
