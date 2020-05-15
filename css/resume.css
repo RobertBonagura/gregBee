@@ -8,8 +8,9 @@ body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   /*color: #868e96;*/
-  color: #ffffffe0; /* Text and some headers*/
+  color: #eeecec; /* Text and some headers*/
   background-color: #121212 /* Main background color */
+
 }
 
 @media (min-width: 992px) {
@@ -25,7 +26,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   /*color: #343a40;*/
-  color: #ffffffe0
+  color: #eeecec;
 }
 
 h3,
@@ -36,7 +37,7 @@ h6 {
   font-weight: 700;
   text-transform: uppercase;
   /*color: #343a40;*/
-  color: #ffffffc0
+  color: #eeecec;
 }
 
 h1 {
@@ -91,7 +92,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #7bbeeb;;
+  color: #7bbeeb;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -102,7 +103,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #7bbeeb;;
+  outline-color: #7bbeeb;
 }
 
 @media (min-width: 992px) {
@@ -124,6 +125,8 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
+    /* fallback for browsers not supporting rgba */
+    border: 0.5rem solid rgba(250, 250, 250);   
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -172,24 +175,20 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #2c2b38!important; /*purple theme*/
   background-color: #4b4a4e!important;
 
   /* old color: #BD5D38 */
 }
 
 .text-primary {
-  color: #514d66 !important; /* purple theme*/
   color: #636364 !important;
 }
 
 a {
-  color: #878db8 ; /* purple theme */ 
   color: #a4a4aa ; 
 }
 
 a:hover, a:focus, a:active {
-  /*old color - #824027 */ 
   color: #a4a4aa;
   opacity: .85;
 }
@@ -204,7 +203,6 @@ a:hover, a:focus, a:active {
   width: 90%;
   height: auto;
   max-width: 500px;
-  box-shadow: 10px 10px 5px #514d66; /* purple theme*/
   box-shadow: 10px 10px 5px #636364; 
 }
 
