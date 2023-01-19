@@ -2,16 +2,18 @@
 
 ## Addings tour dates
 
-Look below for how to edit the website and save your changes.
+Look below for how to:
+1. Edit the website and
+2. Save your changes
 
 ### Editing the website
 
-Open the `index.html` file at https://github.com/RobertBonagura/gregBee/blob/master/index.html
+1. Open the `index.html` file at https://github.com/RobertBonagura/gregBee/blob/master/index.html
 
-Edit the file using the pencil icon near the top of the page, pictured below:<br>
+2. Edit the file using the pencil icon near the top of the page, pictured below:<br>
 ![](./img/readme1.png)
 
-Scroll down to approximately line 102, you should see a series of blocks of code that look like the following:
+3. Scroll down to approximately line 102, you should see a series of blocks each of the following form:
 
 ```
 <!--
@@ -28,54 +30,30 @@ Scroll down to approximately line 102, you should see a series of blocks of code
     </div>
 
   -->
-    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-      <div class="resume-content">
-        <h3 class="mb-0">Broken Mic at Neato Burrito</h3>
-        <div class="subheading mb-3">Spokane, WA</div>
-        <div>6:30pm</div>
-      </div>
-      <div class="resume-date text-md-right">
-        <span class="text-primary">November 2, 2022</span>
-      </div>
-    </div>
-
-
-    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-      <div class="resume-content">
-        <h3 class="mb-0">NACA Convention</h3>
-        <div class="subheading mb-3">Spokane, WA</div>
-        <!-- <div>6:00pm</div> -->
-      </div>
-      <div class="resume-date text-md-right">
-        <span class="text-primary">November 3-5, 2022</span>
-      </div>
-    </div>
 ```
 
-The first block is a template. Notice that it is greyed out and surrounded by a `<!--` and a `-->`. Any html written in between these symbols is _commented out_ and will not be displayed.
-Keep this template block in place and commented out use it to create any relevant dates that you want to add.
+The first block on that page is a template. Notice that it is greyed out and surrounded by a `<!--` and a `-->`. Any html written in between these symbols is _commented out_ and will not be displayed. The 3 blocks of this form that follow are highlighted. These are the blocks responsible for displaying the tour dates. More specifically, each block corresponds to an individual tour date item in the list of tour dates at www.gregbeepoetry.com.
 
-Notice the next two blocks are each an examples following that template.
+4. Keep the template block, the one that appears as greyed out in the editor and is shown above, exactly as is. This can be referenced to create any relevant dates that you want to add.
 
-When you want to add or remove a tour date, copy and paste the template, remove the `<!--` and a `-->` from around it and fill in the appropriate fields.
-Don't delete the template so that it is always there when you want to add a new date.
+To add or remove a tour date, copy and paste the above template where you want it, remove the `<!--` and a `-->` from around it and fill in the appropriate fields. Don't delete the template so that it is always there when you want to add a new date.
 
-Another note about HTML, spaces and indentation does not really matter. Keeping consistent spacing makes it more readable but it will not break the code if the indentation is formatted differently.
+Another note about HTML, spaces and indentation don't really matter. Keeping consistent spacing makes it more readable but it will not break the code if the indentation is formatted differently.
 
 ### Saving your changes
 
-After editng the file scroll down to the bottom of the page to the 'Commit chages' section.
+1. After editing the file, scroll down to the bottom of the page to the 'Commit chages' section.
 
-Name the _commit_ (this is the term we use to name each incremental change to a code base.)
-The default name should be something like 'Create index.html'. This is fine, or provide a short description like 'Updating tour dates'.
+2. Name the _commit_ (this is the term we use to name each incremental change to a code base.)
+The default commit name should be something like 'Create index.html'. Replace this with a concise descriptive change such as 'Updating tour dates'.
 Don't bother adding an optional extended description.
 
-Select _Create a new branch for this commit and start a pull request_, you can use the default branch name.
+3. Select _Create a new branch for this commit and start a pull request_, you can use the default branch name.
 and select _Propose changes_.
 
-On the next screen click _Create pull request_
+4. On the next screen click _Create pull request_
 
-Then let me know you have created a pull request and I will review it and Merge the pull request myself.
+5. Let me know once you have created a pull request and I will review it and Merge the pull request myself.
 
 ## Pushing changes to AWS
 
