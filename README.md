@@ -32,13 +32,13 @@ Look below for how to:
   -->
 ```
 
-The first block on that page is a template. Notice that it is greyed out and surrounded by a `<!--` and a `-->`. Any html written in between these symbols is _commented out_ and will not be displayed. The 3 blocks of this form that follow are highlighted. These are the blocks responsible for displaying the tour dates. More specifically, each block corresponds to an individual tour date item in the list of tour dates at www.gregbeepoetry.com.
+- The first block on that page is a template. Notice that it is greyed out and surrounded by a `<!--` and a `-->`. Any html written in between these symbols is _commented out_ and will not be displayed. The 3 blocks of this form that follow are highlighted. These are the blocks responsible for displaying the tour dates. More specifically, each block corresponds to an individual tour date item in the list of tour dates at www.gregbeepoetry.com.
 
 4. Keep the template block, the one that appears as greyed out in the editor and is shown above, exactly as is. This can be referenced to create any relevant dates that you want to add.
 
-To add or remove a tour date, copy and paste the above template where you want it, remove the `<!--` and a `-->` from around it and fill in the appropriate fields. Don't delete the template so that it is always there when you want to add a new date.
+- To add or remove a tour date, copy and paste the above template where you want it, remove the `<!--` and a `-->` from around it and fill in the appropriate fields. Don't delete the template so that it is always there when you want to add a new date.
 
-Another note about HTML, spaces and indentation don't really matter. Keeping consistent spacing makes it more readable but it will not break the code if the indentation is formatted differently.
+- Another note about HTML, spaces and indentation don't really matter. Keeping consistent spacing makes it more readable but it will not break the code if the indentation is formatted differently.
 
 ### Saving your changes
 
