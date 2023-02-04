@@ -213,6 +213,13 @@ a:hover, a:focus, a:active {
   padding-bottom: 2em;
   }
 
+.book-photo-gender {
+  width: 325px;
+  max-width: 400px;
+  padding-bottom: 2em;
+  padding-left: 5em;
+  }
+
 .poetry-photo {
   width: 200px;
   max-width: 300px;
